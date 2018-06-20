@@ -23,14 +23,14 @@
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-              <img src="{{ asset("/images/logo.jpeg") }}" class="user-image" alt="User Image">
+              <img src="{{ asset("/images/user.png") }}" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
               <span class="hidden-xs">{{ Auth::user()->username }}</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
               <li class="user-header">
-                <img src="{{ asset("/images/logo.jpeg") }}" class="img-circle" alt="User Image">
+                <img src="{{ asset("/images/user.png") }}" class="img-circle" alt="User Image">
 
                 <p>
                   Hello {{ Auth::user()->username }}
@@ -44,7 +44,7 @@
                   </div>
                @else
                  <div class="pull-left">
-                    <a href="{{ url('profile') }}" class="btn btn-default btn-flat">Profile</a>
+                    <a href="#" class="btn btn-default btn-flat">Profile</a>
                   </div>
                  <div class="pull-right">
                     <a class="btn btn-default btn-flat" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">

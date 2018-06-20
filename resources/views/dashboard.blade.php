@@ -76,7 +76,6 @@ desired effect
     <!-- Main content -->
     <section class="content centered">
     <p class="text-center">
-      <img  src="{{ asset("/images/logo.jpeg") }}"  alt="logo">
     </p>
       
       

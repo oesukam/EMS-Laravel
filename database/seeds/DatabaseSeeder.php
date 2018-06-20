@@ -22,8 +22,8 @@ class DatabaseSeeder extends Seeder
         //     'country_code' => 'CN',
         //     'name' => 'China',
         // ]);
-        $department = factory(App\Department::class)->create([
-            'name' => 'IT',
-        ]);
+        // $department = factory(App\Department::class)->create([
+        //     'name' => 'IT',
+        // ]);
     }
 }
